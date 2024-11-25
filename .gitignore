@@ -1,0 +1,76 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# NativeScript
+hooks/
+platforms/
+report/
+*.js.map
+.migration_backup/
+.update_backup/
+
+# Kotlin/Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+.kotlin/
+
+# iOS
+Pods/
+*.ipa
+*.xcuserstate
+*.xcworkspace/
+xcuserdata/
+.DS_Store
+
+# Android
+*.apk
+*.aab
+*.dex
+*.ap_
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Webpack
+dist/
+.webpack/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Debug
+.nativescript.config.ts
+.ns-angular.config.ts
+.ns-vue.config.ts
+
+# IDE
+.vscode/
+*.swp
+*.swo
+.settings/
+.project
+.classpath
+
+# Misc
+*.log
+.tmp/
+tmp/
+coverage/
+.coverage/
+.nyc_output/
+package-lock.json
